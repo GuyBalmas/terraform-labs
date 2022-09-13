@@ -1,9 +1,4 @@
-variable "TF_VAR_AWS_ACCESS_KEY" {
-  default = ""
-}
-variable "TF_VAR_AWS_SECRET_KEY" {
-  default = ""
-}
+
 
 # Create an EC2 DEV instance
 resource "aws_instance" "ec2-dev" {

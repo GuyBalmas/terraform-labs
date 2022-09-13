@@ -16,7 +16,7 @@ variable "TF_VAR_GITHUB_TOKEN" {
   default = ""
 }
 provider "github" {
-  token = var.TF_VAR_GITHUB_TOKEN
+  token = GITHUB_TOKEN
 }
 
 resource "github_repository" "my_repo" {

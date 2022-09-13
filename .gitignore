@@ -1,1 +1,7 @@
+# AWS credentials
 /aws.txt
+
+# Terraform files
+*.tfstate*
+*.terraform/
+*.terraform.lock.hcl
